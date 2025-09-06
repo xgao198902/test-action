@@ -1,0 +1,13 @@
+name: Test Hello Action
+on: [push]
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Say Hello
+        uses: your-username/my-action@v1
+        with:
+          name: Jenny
