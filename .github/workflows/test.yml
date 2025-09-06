@@ -8,6 +8,6 @@ jobs:
       - uses: actions/checkout@v5
 
       - name: Say Hello
-        uses: your-username/my-action@v1
+        uses: xgao198902/my-action@v1
         with:
           name: Jenny
